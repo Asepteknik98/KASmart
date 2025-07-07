@@ -1,45 +1,48 @@
-# aplikasi-uang-kas-dengan-php-native
-Aplikasi Sederhana untuk mengelola uang kas sekaligus pengeluarannya. 
-Aplikasi ini hanya dapat menghandle satu kelas saja.
-Meskipun begitu, tapi aplikasi ini sangat praktis dan tetap optimal dengan bisa menghandle uang kas dalam beberapa tahun serta menyediakan fitur-fitur yang sangat dibutuhkan seperti: riwayat pembayaran dan pengeluaran, laporan hasil perbulan dan lain-lain. 
+# KASmart 🛒📲
 
-Cara memasangnya:
-1. Download file ini
-2. Ekstrak pada htdocs/
-3. Buka phpmyadmin
-4. Buat database dengan nama: uang_kas
-5. Import file uang_kas.sql pada folder yang di ekstrak tadi
-6. Buka localhost/uang_kas
-7. Selesai
+**KASmart** adalah aplikasi pintar berbasis web/mobile yang dirancang untuk membantu proses **manajemen keuangan, transaksi, atau pemesanan barang** secara efisien. Aplikasi ini cocok digunakan oleh UMKM, toko kecil, atau individu yang ingin mengelola aktivitas transaksi secara digital dan terstruktur.
 
-Akun:
+---
 
-Administrator:
+## 🎯 Fitur Unggulan
 
-❥ Username: andri123
+- Manajemen produk dan stok
+- Pencatatan transaksi secara otomatis
+- Rekap laporan penjualan
+- Sistem login pengguna dan admin
+- Tampilan responsif dan mudah digunakan
+- (Opsional) Notifikasi, QR Code, atau integrasi kamera
 
-❥ Password: 123456
+---
+
+## 🛠 Teknologi yang Digunakan
+
+- PHP / Laravel / CodeIgniter (sesuaikan dengan framework)
+- MySQL / MariaDB
+- Bootstrap / Tailwind CSS
+- JavaScript (Vanilla / jQuery)
+- (Opsional) Flutter atau React Native jika berbasis mobile
+
+---
+
+## 🚀 Cara Menjalankan Aplikasi
+
+### 1. Clone Repositori
+
+```bash
+git clone https://github.com/Asepteknik98/KASmart.git
+cd KASmart
 
 
-Bendahara:
+1. Konfigurasi Database
+Import file database.sql ke phpMyAdmin atau MySQL Anda
 
-❥ Username: andre123
+Ubah konfigurasi koneksi database di file config/database.php (atau .env jika Laravel)
 
-❥ Password: 123456
+2. Jalankan Aplikasi
+Jika menggunakan XAMPP / Localhost:
 
+Simpan folder di htdocs
 
-Guru:
+Akses di browser: http://localhost/KASmart
 
-❥ Username: annisa321
-
-❥ Password: 123456
-
-
-Fitur:
-- Hak akses
-- Mengelola Uang Kas Perbulan
-- Riwayat Pembayaran
-- Mengelola Pengeluaran
-- Riwayat Pengeluaran
-- Ganti Password
-- Dan Lainnya
